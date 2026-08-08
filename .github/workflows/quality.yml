@@ -31,3 +31,12 @@ jobs:
 
       - name: Lint
         run: npm run lint
+
+      - name: Guard legacy boundary
+        shell: bash
+        run: |
+          set -euo pipefail
+          grep -Fq 'Legacy prototype' src/App.tsx
+          grep -Fq 'https://github.com/KAFKA2306/KAFKA2306' src/App.tsx
+          ! grep -Eq '[0-9]+ (Stars|Followers|Following)' src/App.tsx
+          ! grep -Fq 'discordapp.com/users/' src/App.tsx
