@@ -1,5 +1,7 @@
 # aboutkafka — legacy profile prototype
 
+[![Quality](https://github.com/KAFKA2306/aboutkafka/actions/workflows/quality.yml/badge.svg)](https://github.com/KAFKA2306/aboutkafka/actions/workflows/quality.yml)
+
 `aboutkafka`は、2024年10月に作成したReact / TypeScript / ViteのプロフィールUI試作です。
 
 **このリポジトリは現在のKAFKA2306プロフィールの正準ではなく、legacyとして保守を停止します。** 現在の活動、主要リポジトリ、公開媒体、公開URL台帳は[`KAFKA2306/KAFKA2306`](https://github.com/KAFKA2306/KAFKA2306)を参照してください。
