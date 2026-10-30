@@ -1,5 +1,5 @@
 import React from 'react'
-import { Archive, Github } from 'lucide-react'
+import { Archive, GitBranch } from 'lucide-react'
 
 const CANONICAL_PROFILE_URL = 'https://github.com/KAFKA2306/KAFKA2306'
 
@@ -27,7 +27,7 @@ const App: React.FC = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Github aria-hidden="true" size={20} />
+            <GitBranch aria-hidden="true" size={20} />
             現在の正準プロフィールを開く
           </a>
         </section>
